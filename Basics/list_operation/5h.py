@@ -1,0 +1,15 @@
+l=["book","pen","pencil","mobile","laptop"]
+print(l)
+l.append("thin pad")
+l.insert(1,"shoes")
+print(l)
+l.pop(2)
+print(l)
+numb=[1,8,3,4,6,2,0,3,1,3,1]
+numb.sort()
+print(numb)
+print(sum(numb))
+numb.sort(reverse=True)
+print(numb)
+numb.reverse()
+print(numb)
